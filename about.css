@@ -16,9 +16,24 @@ header * {
 header li:hover {
     margin: 20px;
     color:blue;
+    font-size: 14px;
     box-shadow: blueviolet;
 }
 header li a {
     /* color: black; */
     text-decoration: none;
+}
+#pic img{
+    height: 45vh;
+}
+
+
+body {
+    /* height: 30vh; */
+    background-image:  url("https://bit.ly/2I2qT2E");
+    
+    background-size: cover;
+    /* font-family: sans-serif; */
+    margin-top: 80px;
+    padding: 30px;
 }
