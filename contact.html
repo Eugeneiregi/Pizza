@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <title>pizza</title>
     <!-- <link rel = "icon" href ="https://bit.ly/2t662Ys" type = "image/x-icon">  -->
 </head>
@@ -21,7 +22,22 @@
   </nav>
       </header>
 <body>
+    <div class="row">
+        <div class="col-md-6">
+        <!-- <input type="text" class="form-control" style="text-shadow: inherit;" value="" style="background-color: transparent;" id="namee" required="required" placeholder="Name" > -->
+        <input type="text" class="form-control" style="background-color: transparent;" id="namee"  placeholder="Name" >
+        </div>
+        <div class="col-md-6">
+        <input type="email" class="form-control" value="" style="background-color: transparent;" id="email" required="required"  placeholder="Email">
+        <input type="email" class="form-control"  id="email" style="background-color: transparent;"  placeholder="Email">
+        </div><br><br>
+        <div class="col-md-12">
+        <textarea class="form-control" style="background-color: transparent;" id="message" value="" style="box-sizing: 100px;"  placeholder="Your message here" required="required" ></textarea>
+        <textarea class="form-control" style="background-color: transparent;" id="message"   placeholder="Your message here"  ></textarea>
+        </div><br>
+        </div><br>
+        <button type="submit" id="contact" class="btn btn-primary">Submit</button><br><br>
     
-   
+        <script src="./script.js"></script>
 </body>
 </html>
