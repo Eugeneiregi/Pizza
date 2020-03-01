@@ -93,7 +93,7 @@ $(document).ready(function(){
         total = (nametotal + sizetotal + toppingtotal + crusttotal ) * quantity; 
 
         const delivertyCost = 200;
-        const orderReport = "name: "+name + "<br>" + "Size: " + size + "<br>" + "Quantity: " + quantity + "Crusts: " + "<br>" + crust + "Toppings: " + toppings + "Delivery:" + delivertyCost + "Total: " + total;
+        const orderReport = "Name: "+name + "<br>" + "<br>" + "<br>" + "Size: " + size + "<br>" + "<br>" + "Quantity: " + "<br>" + quantity + "<br>" + "Crusts: " + "<br>" + crust + "Toppings: " + toppings + "<br>" + "<br>" + "Delivery cost:" + delivertyCost + "<br>" + "Total: " + total;
     
         document.getElementById("output").innerHTML=(orderReport);
     });

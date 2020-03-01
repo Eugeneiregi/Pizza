@@ -40,7 +40,7 @@
             <select class="form-control" id="size" aria-valuemax="" Placeholder="size">
                 <option hidden>Size of the pizza</option>
                 <option value="Small">Small</option>
-                <option value="Medium">Medium</option >
+                <option value="Medium">Medium</option>
                 <option value="Large">Large</option>
             </select><br> <br>
 
@@ -63,42 +63,45 @@
 
             <div id="num">
                 <label for="number">Number of Pizza's</label>
-                <input type="number" class="form-control" style="background-color: yellow;" id="number" placeholder="Number of pizzas" min="1" required>
+                <input type="number" class="form-control" style="background-color: yellow;" id="number"
+                    placeholder="Number of pizzas" min="1" required>
             </div>
 
 
 
             <a href>
-                <button type="submit" onclick="myFunction()" style="background-color: blue;" class="btn btn-success checkout" id="checkout">
+                <button type="submit" onclick="myFunction()" style="background-color: blue;"
+                    class="btn btn-success checkout" id="checkout">
                     Checkout
                 </button>
             </a>
-            <div id ="output">
+            <div class="card-fluid">
+                <div id="output">
 
-                <h2>Your Order</h2>
-                
-                <p>Name: <span id="name"></span></p>
-                <p>Size: <span id="size"></span></p>
-                <p>Quantity: <span id="quantity"></span></p>
-                <p>Crusts: <span id="crusts"></span></p>
-                <p>Toppings:<span id="toppings"></span></p>
+                    <h2>Your Order</h2>
 
-                <p>Delivery:<span class="delivery-fee"></span></p>
+                    <p>Name: <span id="name"></span></p>
+                    <p>Size: <span id="size"></span></p>
+                    <p>Quantity: <span id="quantity"></span></p>
+                    <p>Crusts: <span id="crusts"></span></p>
+                    <p>Toppings:<span id="toppings"></span></p>
 
-                <p>Total:<span class="Total"></span></p>
+                    <p>Delivery:<span class="delivery-fee"></span></p>
 
-        </div>  
+                    <p>Total:<span class="Total"></span></p>
+
+                </div>
+            </div>
+
+
+
+
+
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-
-
-
-
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <script src="./script.js"></script>
+        <script src="./script.js"></script>
 </body>
 
 </html>

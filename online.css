@@ -78,3 +78,15 @@ body {
     border-radius: 15px;
 
 }
+#checkout{
+    font-size: 20px;
+    border-radius: 15px;
+    color: cyan;
+    -webkit-background-composite: padding;
+}
+.card-fluid{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    color: gold;
+}
