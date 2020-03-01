@@ -30,35 +30,35 @@
                 <select class="form-control" style="background-color: rgb(252, 227, 0);" id="name" aria-valuemax=""
                     Placeholder="name">
                     <option hidden>Name of Pizza</option>
-                    <option>Chicken</option>
-                    <option>Vegetables</option>
-                    <option>Meat</option>
+                    <option value="Chicken">Chicken</option>
+                    <option value="Vegetables">Vegetables</option>
+                    <option value="Meat">Meat</option>
                 </select> <br> <br>
             </div>
 
 
             <select class="form-control" id="size" aria-valuemax="" Placeholder="size">
                 <option hidden>Size of the pizza</option>
-                <option>Small</option>
-                <option>Medium</option>
-                <option>Large</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option >
+                <option value="Large">Large</option>
             </select><br> <br>
 
             <select class="form-control" style="background-color: yellow;" id="toppings" aria-valuemax=""
                 Placeholder="toppings">
                 <option hidden>Toppings</option>
-                <option>Pepperoni</option>
-                <option>Extra cheese</option>
-                <option>Green peppers</option>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Extra cheese">Extra cheese</option>
+                <option value="Green peppers">Green peppers</option>
             </select><br> <br>
 
             <select class="form-control" style="background-color: yellow;" id="crust" aria-valuemax=""
                 Placeholder="crust">
                 <option hidden>Pizza Crust</option>
-                <option>Thin Crust</option>
-                <option>Thick Crust</option>
-                <option>Cheese Filled Crust</option>
-                <option>Stuffed Crust</option>
+                <option value="Thin Crust">Thin Crust</option>
+                <option value="Thick Crust">Thick Crust</option>
+                <option value="Cheese Filled Crust">Cheese Filled Crust</option>
+                <option value="Stuffed Crust">Stuffed Crust</option>
             </select><br> <br>
 
             <div id="num">
@@ -69,11 +69,11 @@
 
 
             <a href>
-                <button type="submit" onclick="myFunction" style="background-color: blue;" class="btn btn-success checkout" id="checkout">
+                <button type="submit" onclick="myFunction()" style="background-color: blue;" class="btn btn-success checkout" id="checkout">
                     Checkout
                 </button>
             </a>
-            <div class ="output">
+            <div id ="output">
 
                 <h2>Your Order</h2>
                 
@@ -95,6 +95,9 @@
 
 
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <script src="./script.js"></script>
 </body>
 
