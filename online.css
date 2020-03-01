@@ -38,10 +38,12 @@ body {
     margin-left: 23px;
     border-radius: 20px;
     box-shadow: 20px;
+    color: lightcoral;
 }
 #size{
     font-style: italic;
     background-color:yellow;
+    color: lightcoral;
     font-size: 40px;
     margin-left: 100px;
     transition: inherit;
@@ -53,4 +55,5 @@ body {
     font-size: 40px;
     border-radius: 20px;
     margin-left: 180px;
+    color: lightcoral;
 }
