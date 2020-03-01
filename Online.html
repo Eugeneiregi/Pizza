@@ -24,28 +24,39 @@
 
 <body>
     <div id="online"></div>
-    <div class="card-body">
-        <select class="form-control" id="name" aria-valuemax="" Placeholder="name">
-            <option hidden>Pizza Name</option>
-            <option>Chicken</option>
-            <option>Vegetables</option>
-            <option>Meat</option>
-        </select>
+    <div class="container">
+        <div class="card-body">
+            <div class="container-fluid">
+                <select class="form-control" style="background-color: rgb(252, 227, 0);" id="name" aria-valuemax="" Placeholder="name">
+                    <option hidden>Name of Pizza</option>
+                    <option>Chicken</option>
+                    <option>Vegetables</option>
+                    <option>Meat</option>
+                </select> <br> <br> 
+            </div>
 
 
-        <select class="form-control" id="size" aria-valuemax="" Placeholder="size">
-            <option hidden>Pizza Size</option>
-            <option>Small</option>
-            <option>Medium</option>
-            <option>Large</option>
-        </select><br> </div> 
-        
-        
-        
-        
-        
-        
-        <script src="./script.js"></script>
+            <select class="form-control" id="size" aria-valuemax="" Placeholder="size">
+                <option hidden>Size of the pizza</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select><br> <br>
+
+            <select class="form-control" style="background-color: yellow;" id="toppings" aria-valuemax="" Placeholder="toppings">
+                <option hidden >Toppings</option>
+                <option>Pepperoni</option>
+                <option>Extra cheese</option>
+                <option>Green peppers</option>
+                </select><br> <br>
+        </div>
+
+
+
+
+
+    </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>

@@ -32,3 +32,25 @@ body {
     margin-top: 80px;
     padding: 30px;
 }
+#name{
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 23px;
+    border-radius: 20px;
+    box-shadow: 20px;
+}
+#size{
+    font-style: italic;
+    background-color:yellow;
+    font-size: 40px;
+    margin-left: 100px;
+    transition: inherit;
+    border-radius: 20px;
+}
+#toppings{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    border-radius: 20px;
+    margin-left: 180px;
+}
