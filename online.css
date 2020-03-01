@@ -26,7 +26,7 @@ header li a {
 body {
     /* height: 30vh; */
     background-image:  url("https://bit.ly/2VpR7nE");
-    
+    background-attachment: fixed;
     background-size: cover;
     font-family: sans-serif;
     margin-top: 80px;
