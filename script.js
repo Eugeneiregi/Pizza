@@ -24,13 +24,77 @@ $(document).ready(function(){
         var size = $("#size").val();
         var crust = $("#crust").val();
         var toppings = $("#toppings").val();
+        var quantity = $("#number").val();
         var name = $("#name").val();
-        // var newPizzaOrder = new PlaceOrder (size ,crust ,toppings);
-        // newPizzaOrder.cost();
-        // totalCosts.push(newPizzaOrder.price);
 
-        const orderReport = "<p>Name: $(size)</p>";
+        //cost per category
+        let pizzaName = ["Chicken","Vegetables","Meat"];
+        let pizzaSize = ["Small","Medium","Large"];
+        let pizzaTopping = ["Pepperoni","Extra cheese","Green peppers"];
+        let pizzaCrust = ["Thin Crust","Thick Crust","Cheese Filled Crust","Stuffed Crust"];
+
+        let prizeArr = [100,150,200,250,300,350];
+        var total = 0;
+
+        var nametotal = 0;
+        var sizetotal = 0;
+        var toppingtotal = 0;
+        var crusttotal = 0;
+
+
+        //total from name
+        if(name == pizzaName[0]){
+          nametotal += 200;
+        }
+        else if(name == pizzaName[1]){
+          nametotal += 100
+        }
+        else if(name == pizzaName[2]){
+          nametotal += 300;
+        }
+
+        //total from size
+        if(size == pizzaSize[0]){
+          sizetotal = 100;
+        }
+        else if(size == pizzaSize[1]){
+            sizetotal = 150;
+        }
+        else if(size == pizzaSize[2]){
+            sizetotal = 200;
+        }
+
+        //total from toppings
+        if(toppings == pizzaTopping[0]){
+            toppingtotal += 150;
+        }
+        else if(toppings == pizzaTopping[1]){
+            toppingtotal += 200;
+        }
+        else if(toppings == pizzaTopping[2]){
+            toppingtotal += 250;
+        }
+
+        //total from crust
+        if(crust == pizzaCrust[0]){
+            crusttotal += 200;
+        }
+        else if(crust == pizzaCrust[1]){
+            crusttotal += 200;
+        }
+        else if(crust == pizzaCrust[2]){
+            crusttotal += 250;
+        }
+        else if(crust == pizzaCrust[3]){
+            crusttotal += 300;
+        }
+
+        //total depending on the quantity
+        total = (nametotal + sizetotal + toppingtotal + crusttotal ) * quantity; 
+
+        const delivertyCost = 200;
+        const orderReport = "name: "+name + "<br>" + "Size: " + size + "<br>" + "Quantity: " + quantity + "Crusts: " + "<br>" + crust + "Toppings: " + toppings + "Delivery:" + delivertyCost + "Total: " + total;
     
-        document.getElementById("output").innerHTML(orderReport);
+        document.getElementById("output").innerHTML=(orderReport);
     });
 })
