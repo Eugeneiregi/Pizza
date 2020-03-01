@@ -54,7 +54,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     border-radius: 20px;
-    margin-left: 180px;
+    margin-left: 190px;
     color: lightcoral;
 }
 #crust{
@@ -64,4 +64,17 @@ body {
     border-radius: 20px;
     margin-left: 250px;
     color: lightcoral;
+}
+#num{
+    color: lightcoral;
+    text-decoration: lightcoral;
+    text-transform: inherit;
+    margin-left: 300px;
+    /* text-align: center; */
+    font-size: 25px;
+    margin-right: 25px;
+}
+#number{
+    border-radius: 15px;
+
 }
