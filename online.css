@@ -1,5 +1,5 @@
 header {
-    /* background-color: white; */
+    background-color: grey;
     position: fixed;
     top: 0;
     left: 0;
@@ -89,4 +89,8 @@ body {
     font-style: italic;
     font-size: 40px;
     color: gold;
+    /* background-color: cyan; */
+    background-image: url("https://bit.ly/2VFfEoX");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
