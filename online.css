@@ -84,6 +84,9 @@ body {
     color: cyan;
     -webkit-background-composite: padding;
 }
+.video{
+    float: right;
+}
 .card-fluid{
     text-align: center;
     font-style: italic;
@@ -93,4 +96,11 @@ body {
     background-image: url("https://bit.ly/2VFfEoX");
     background-size: cover;
     background-repeat: no-repeat;
+}
+.footer{
+    background-color: darkgrey;
+    padding: 20px;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
 }

@@ -25,6 +25,12 @@
 <body>
     <div id="online"></div>
     <div class="container">
+        <div class="video">
+            <Video height="300vh" width="" controls align="left">
+                <source src="./Video/video.mp4" type="video/mp4">
+                Your browser does not support the tag </video>
+            </Video>
+        </div>
         <div class="card-body">
             <div class="container-fluid">
                 <select class="form-control" style="background-color: rgb(252, 227, 0);" id="name" aria-valuemax=""
@@ -72,7 +78,7 @@
             <a href>
                 <button type="submit" onclick="myFunction()" style="background-color: blue;"
                     class="btn btn-success checkout" id="checkout">
-                    Checkout
+                    Order and review
                 </button>
             </a>
             <div class="card-fluid">
@@ -98,10 +104,14 @@
 
 
         </div>
+        <div class="footer" style="color: crimson;">
+            <footer style="text-align: center;">Thank you for your order</footer>
+        </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
         <script src="./script.js"></script>
+    </div>
 </body>
 
 </html>
